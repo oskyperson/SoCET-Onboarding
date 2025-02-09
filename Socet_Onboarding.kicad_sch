@@ -341,7 +341,7 @@
 			)
 			(uuid "38eb26eb-107c-4e1b-a12b-6ae21d7ee5af")
 		)
-		(pin "SPI{SS,MOSI,MISO,SLCK}" input
+		(pin "SPI{SS,MOSI,MISO,SCK}" input
 			(at 245.618 64.77 0)
 			(effects
 				(font
@@ -497,7 +497,7 @@
 			)
 			(uuid "44e28e65-339f-40bd-b54f-216d594e32e3")
 		)
-		(pin "SPI{SS,MOSI,MISO,SCLK}" input
+		(pin "SPI{SS,MOSI,MISO,SCK}" input
 			(at 252.222 121.92 0)
 			(effects
 				(font

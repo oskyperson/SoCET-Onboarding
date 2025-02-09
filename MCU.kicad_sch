@@ -2499,7 +2499,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_C{01,2,3,4,5}"
+	(global_label "GPIO_C{0,1,2,3,4,5}"
 		(shape input)
 		(at 248.92 17.78 180)
 		(fields_autoplaced yes)
@@ -2511,7 +2511,7 @@
 		)
 		(uuid "0a47fd70-5af2-4eb7-af94-7cfa766b504b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.8523 17.78 0)
+			(at 227.2475 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2697,7 @@
 			)
 		)
 	)
-	(global_label "SPI{SS,MOSI,MISO,SCLK}"
+	(global_label "SPI{SS,MOSI,MISO,SCK}"
 		(shape input)
 		(at 252.73 34.29 180)
 		(fields_autoplaced yes)
@@ -2709,7 +2709,7 @@
 		)
 		(uuid "45eff2a3-5d38-4955-bf4a-d10fb86b3e2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7637 34.29 0)
+			(at 227.7918 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2785,7 @@
 			)
 		)
 	)
-	(global_label "SPI.SCLK"
+	(global_label "SPI.SCK"
 		(shape input)
 		(at 109.22 80.01 0)
 		(fields_autoplaced yes)
@@ -2797,7 +2797,7 @@
 		)
 		(uuid "5c339f2c-bbed-423f-a75a-00c86dbb5e4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6719 80.01 0)
+			(at 119.6438 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3293,7 @@
 		)
 		(uuid "2ee0f15b-cbfc-4be8-8118-0836b10a7fa5")
 	)
-	(hierarchical_label "SPI{SS,MOSI,MISO,SCLK}"
+	(hierarchical_label "SPI{SS,MOSI,MISO,SCK}"
 		(shape input)
 		(at 257.81 34.29 0)
 		(fields_autoplaced yes)
@@ -3445,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 69.85 0)
 			(effects
 				(font
@@ -3585,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.032 100.33 90)
 			(effects
 				(font
@@ -3785,7 +3785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.2948 62.23 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.372 101.6 90)
 			(effects
 				(font
@@ -3989,7 +3989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 61.2648 67.31 0)
 			(effects
 				(font
@@ -4057,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 97.4852 0)
 			(effects
 				(font
@@ -4191,7 +4191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -4525,7 +4525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 192.532 142.24 90)
 			(effects
 				(font
@@ -4724,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 106.3752 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.912 142.24 90)
 			(effects
 				(font
@@ -4995,7 +4995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
 			(at 196.85 100.33 0)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 124.46 58.7248 0)
 			(effects
 				(font

@@ -2223,7 +2223,7 @@
 			)
 		)
 	)
-	(global_label "SPI{SS,MOSI,MISO,SCLK}"
+	(global_label "SPI{SS,MOSI,MISO,SCK}"
 		(shape input)
 		(at 251.46 35.56 180)
 		(fields_autoplaced yes)
@@ -2235,7 +2235,7 @@
 		)
 		(uuid "b72a86b5-d130-4ccb-894d-f944cc37ecc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.4937 35.56 0)
+			(at 226.5218 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2289,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_C{01,2,3,4,5}"
+	(global_label "GPIO_C{0,1,2,3,4,5}"
 		(shape input)
 		(at 246.38 17.78 180)
 		(fields_autoplaced yes)
@@ -2301,7 +2301,7 @@
 		)
 		(uuid "bf84127a-b7a0-4d2f-b4b7-9175abcb520d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.3123 17.78 0)
+			(at 224.7075 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 		)
 		(uuid "2d2de37c-cc60-41e4-8e7f-6d3023184c05")
 	)
-	(hierarchical_label "SPI{SS,MOSI,MISO,SLCK}"
+	(hierarchical_label "SPI{SS,MOSI,MISO,SCK}"
 		(shape input)
 		(at 257.81 35.56 0)
 		(fields_autoplaced yes)
@@ -2808,7 +2808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -2919,7 +2919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -3227,7 +3227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 204.47 72.39 0)
 			(effects
 				(font

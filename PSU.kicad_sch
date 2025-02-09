@@ -2253,6 +2253,12 @@
 		(uuid "28235a1d-e9f9-43fe-83d4-be71f444d04d")
 	)
 	(junction
+		(at 81.28 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e2cab41-7b57-4157-b4ad-68bf74b1d1d8")
+	)
+	(junction
 		(at 59.69 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2287,12 +2293,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d990fe1d-8a0f-41b0-bc04-e1cf19ebb95e")
-	)
-	(junction
-		(at 85.09 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdfd9d9e-3dca-401b-bebb-cdd4ccbd3d35")
 	)
 	(no_connect
 		(at 77.47 87.63)
@@ -2378,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 157.48) (xy 81.28 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fd4e25-929e-4667-aed0-cede0e6cfb02")
+	)
+	(wire
+		(pts
 			(xy 99.06 154.94) (xy 99.06 158.75)
 		)
 		(stroke
@@ -2418,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 147.32) (xy 85.09 147.32)
+			(xy 76.2 147.32) (xy 81.28 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2498,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 147.32) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5273393b-fc77-493f-8dfe-f97ed2e108d9")
+	)
+	(wire
+		(pts
 			(xy 195.58 54.61) (xy 195.58 55.88)
 		)
 		(stroke
@@ -2545,16 +2565,6 @@
 			(type default)
 		)
 		(uuid "624d6525-23c7-426b-bf4c-06472cf2e9ad")
-	)
-	(wire
-		(pts
-			(xy 85.09 147.32) (xy 99.06 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62dce990-5a08-41ed-8f52-77292af5e874")
 	)
 	(wire
 		(pts
@@ -2608,13 +2618,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 154.94) (xy 85.09 158.75)
+			(xy 81.28 147.32) (xy 81.28 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "822c7abc-6c16-47d1-8244-62817cc621a5")
+		(uuid "8420a82c-1170-47b8-a41a-509cb86c0211")
 	)
 	(wire
 		(pts
@@ -3138,7 +3148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 124.46 146.05 0)
 			(effects
 				(font
@@ -3209,7 +3219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 169.672 123.19 90)
 			(effects
 				(font
@@ -3336,7 +3346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" ".1u"
 			(at 207.01 69.4181 0)
 			(effects
 				(font
@@ -3345,7 +3355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -3413,7 +3423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -3486,7 +3496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.252 67.31 90)
 			(effects
 				(font
@@ -3661,6 +3671,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 81.28 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48fb8fe6-db72-40be-aecf-e5d9087b32d2")
+		(property "Reference" "#PWR024"
+			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf27e883-7aa4-4fe9-a94f-d1f793ae53eb")
+		)
+		(instances
+			(project "Socet_Onboarding"
+				(path "/4f6ede97-95f2-479b-8a62-4dd4f1f7b83b/c73a435e-84d1-47f3-96bd-7afc98a52d98"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 80.01 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3751,7 +3827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 66.04 72.39 0)
 			(effects
 				(font
@@ -3866,7 +3942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.802 72.39 90)
 			(effects
 				(font
@@ -4072,7 +4148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.7248 147.32 0)
 			(effects
 				(font
@@ -4208,7 +4284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.802 59.69 90)
 			(effects
 				(font
@@ -4278,7 +4354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -4348,7 +4424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 183.642 121.92 90)
 			(effects
 				(font
@@ -4418,7 +4494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 171.45 135.89 0)
 			(effects
 				(font
@@ -4462,16 +4538,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 151.13 180)
+		(at 81.28 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8157c3f8-46b4-4405-85de-e4382905d220")
+		(uuid "945862f4-7c9b-4c0a-af17-8a5c35114d33")
 		(property "Reference" "C8"
-			(at 88.9 149.8599 0)
+			(at 85.09 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4556,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 88.9 152.3999 0)
+			(at 85.09 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +4564,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 84.1248 147.32 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 80.3148 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 151.13 0)
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4583,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 151.13 0)
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,10 +4592,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "64c4ed69-a5df-492f-9c68-315defbe7e65")
+			(uuid "358ce8aa-c3a7-4bc4-bf05-9970834cb1fc")
 		)
 		(pin "2"
-			(uuid "e1d1b21f-6fbd-4564-88fd-5be9961f5297")
+			(uuid "b4613378-5f84-41bd-902d-12c65498aa93")
 		)
 		(instances
 			(project "Socet_Onboarding"
@@ -4558,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.822 68.58 90)
 			(effects
 				(font
@@ -4826,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 100.0252 154.94 0)
 			(effects
 				(font
@@ -4863,72 +4939,6 @@
 			(project ""
 				(path "/4f6ede97-95f2-479b-8a62-4dd4f1f7b83b/c73a435e-84d1-47f3-96bd-7afc98a52d98"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1c7af5f-3081-4353-a46a-141bca621237")
-		(property "Reference" "#PWR024"
-			(at 85.09 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f319e175-f5dc-4ebd-84be-4199cc70f525")
-		)
-		(instances
-			(project "Socet_Onboarding"
-				(path "/4f6ede97-95f2-479b-8a62-4dd4f1f7b83b/c73a435e-84d1-47f3-96bd-7afc98a52d98"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5227,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 72.39 149.098 90)
 			(effects
 				(font
@@ -5626,7 +5636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 185.42 134.62 0)
 			(effects
 				(font
